@@ -1,7 +1,5 @@
 # app.py
-from agents.models import openai_provider
 import streamlit as st
-import asyncio
 from agents import Agent, Runner, OpenAIChatCompletionsModel, AsyncOpenAI, function_tool
 from dotenv import load_dotenv
 import os
